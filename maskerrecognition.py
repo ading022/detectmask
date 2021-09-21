@@ -18,7 +18,7 @@ weared_mask = "Terima kasih sudah menggunakan masker"
 not_weared_mask = "INGAT PESAN DOI PAKAI MASKERMU"
 
 # Read video
-cap = cv2.VideoCapture(1,cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 while 1:
     # Get individual frame
